@@ -15,7 +15,7 @@ libc = "0.2.190"
 log = "0.4.34"
 log4rs = { version = "1.4.0", default-features = false, features = ["console_appender"] }
 kmr-common = { path = "../common", version = "0.1.0" }
-nix = { version = "0.31.3", features = ["ptrace", "signal"] }
+nix = { version = "0.32.0", features = ["ptrace", "signal"] }
 omhook = { version = "1.0.0", default-features = false, features = [ "plt" ] }
 anyhow = "1.0.104"
 async-trait = "0.1.92"
